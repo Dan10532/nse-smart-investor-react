@@ -5,7 +5,7 @@ import LandingPage from "./LandingPage";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, ArcElement, BarElement, Tooltip, Legend, Filler);
 
-const API = "http://localhost:8000";
+const API = "https://api.nsesmartinvestor.co.ke";
 
 const MOCK_MARKET = [
   { company: "Safaricom",    ticker: "SCOM", price: 14.85, change: "+1.23%", volume: "N/A", signal: "BUY",  pe: null, roe: null },
